@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header__nav{
+    background-color:hsla(0, 0%, 100%, 0.916);
+}
+.header-content{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    list-style: none;
+}
+
+.header__link{
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+.header__item{
+    padding-top: 23px;
+    padding-bottom: 223px;
+    padding-left: 23px;
+    padding-right: 15px;
+}
+
+.header__item:hover{
+    background-color: rgb(248, 248, 248);
+}
+.header__item:hover>a{
+color: black;    
+}
+
+
+.coffe{
+margin: auto;
+width:999px;
+height: 530px;
+right: 0%;
+background-image: url(../img/Coffee.png);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+     
+    
+}
+.coffe__title{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.coffe-title{
+    color: white;
+    font-weight: 500;
+    font-size: 70px;  
+}
+.coffe__text{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+ 
+.intro{
+    margin-top: 30px;
+}
+.intro-content{
+    height: 500px;
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro__title{
+    width: 578px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 28px;
+     color: rgba(29, 31, 46, 1); 
+     margin-left: 62px;
+     line-height: 59px;
+}
+.intro__text{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(29, 31, 46, 0.7);
+    width: 658px;
+    margin: 16px 0px 21px 62px;
+}
+.intro-btn{
+ width: 133px;
+ height: 28px;
+color: #A25F4B;
+ background: rgba(162, 95, 75, 1);
+ border-radius: 30px;
+ margin-left: 62px;
+ border: none;
+ text-align: center;
+ box-shadow: #A25F4B;
+}
+.intro-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  #1D1F2E;
+
+}
+.intro-btn:hover{
+    background-color:#A25F4B;
+}
+.intro__link{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none; 
+}
+.intro__link:hover{
+    color: white;
+}
+
+.Coffee{
+    
+}
+
+.Coffee>.container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.Coffee__box{
+    width: 225px;
+    color: rgba(29, 31, 46, 1);
+    border-radius: 15px;
+    padding: 32px 18px 19px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.Coffee-title{
+font-family: 'Karla';
+font-size: 20px;
+font-weight: 400;
+color: #1D1F2E;
+text-align: center;
+}
+
+.Coffee__box>i{
+font-size: 94px;
+color:#1D1F2E;
+}
+
+.Coffee__link{
+    padding: 7px 60px;
+    border-radius: 30px;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+.Coffee__title{
+width: 124px;
+height: 18px;
+font-weight: 400;
+font-size: 12px;
+text-align: center;
+text-transform: uppercase;
+color: #1D1F2E;
+}
+
+.service{
+    
+}
+
+.service>.container{
+ display: flex;
+ flex-flow:wrap ;
+justify-content: space-between;
+align-items: center;
+}
+.service__box{
+    width: 255px;
+    border-color: #fff;
+    border-radius: 15px;
+    padding: 32px 18px 19px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 371px;
+}
+.service__title{
+font-family: 'Karla';
+font-size: 20px;
+font-weight: 400;
+color:#1D1F2E;
+text-align: center;
+}
+.service__box>i{
+    font-size: 94px;
+    color:#1D1F2E;
+}
+.service__link{
+   padding: 4px 58px;
+   border-radius:30px;
+   font-family:'Karla';
+   font-weight:400;
+   font-size:19px;
+   text-decoration:none;
+}
